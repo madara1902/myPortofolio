@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* akhikr reset css */
+body, html {
+    width: 100%;
+    height: 100%;
+}
+/* Parallax */
+@media (min-width: 576px), (max-width: 1200px) {
+    .hero1 {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: lightblue;
+        background-image: url(../img/pexels-jessica-lewis-creative-583848.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+
+    .title-hero {
+        text-align: center;
+        color: white;
+        padding-top: 276px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+
+
+}
+.box-1 {
+    width: 7px;
+    height: 10px;
+    background-color: black;
+    border-radius: 4px;
+}
+/* Turn off parralax scrolling for tablets and phones */
+/* @media only screen and (max-device-width: 1366px) {
+    .hero1, .hero2 {
+        background-attachment: scroll;
+    }
+} */
+
+/* main {
+    height: 700px;
+} */
+
+main h2 {
+    overflow: hidden;
+}
+
+
+
+main h2:hover > .slideup{
+    top:0;
+}
+
+main {
+    overflow: hidden;
+}
+
+main .about h1 {
+    text-align: center;
+}
+
+.card {
+    margin-right: 35px;
+    margin-left: 30px;
+}
+
+.intro {
+    text-align: left;
+}
+
+    
+.project                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             .carousel img {
+    border-radius: 2rem; 
+    width: 520px;
+    height: 400px;
+        
+}
+
+ 
+.article .project {
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2rem;
+    margin-bottom: 4px;
+    
+}
+
+
+
+
+.fgr-btn {
+    text-decoration: none; 
+}
+
+.box-2 {
+    background-color: white;
+    width: 7px;
+    height: 4px;
+}
+
+ol ul li a {
+    text-decoration: none;
+}
+footer {
+    background-color: salmon;
+    text-align: center;
+}
