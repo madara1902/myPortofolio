@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+    <!-- awal navbar header-->
+<header>
+<nav class="site-header">
+    <nav class="navbar navbar-light bg-dark fixed-top rounded-2">
+      <div class="container-fluid">
+        <!-- navbar brand -->
+        <img src="../portofolio/img/hero_me.jpg" alt="Rifky" class="rounded-circle navbar-brand " style="width: 45px;">
+        <!-- navbar brand end -->
+        <!-- toggle menu navbar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <!-- end toggle menu navbar -->
+          <!-- menu navbar -->
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <!-- home navbar -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <!-- about navbar -->
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <!-- project navbar -->
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <!-- contact navbar -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <!-- search navbar -->
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <!-- search end -->
+          </div>
+        </div>
+      </div>
+    </nav>
+</nav>
+</header>
+<!-- akhir navbar & header-->
+
+<!-- hero-->
+<div class="hero1 " id="home"> <h1 class="title-hero display-1 ">Welcome</h1></div>
+<div class="box-1 container-fluid"></div>
+<!-- <div class="hero2"></div> -->
+
+<!-- Main -->
+<main>
+<h2 class="text-center mb-3">About Me</h2>
+
+<div id="about" class="row row-cols-1 d-flex justify-content-center">
+  
+    <div class ="card col shadow p-3 mb-5 bg-body rounded " style="width:18rem;">
+    <img src="../portofolio/img/working.png" alt="card" class="card-img-top">
+    <div class="card-body"> 
+      <p class="intro">Perkenalkan nama saya Rifky Hamballi Syahfadillah, biasa dipanggil Rifky. Umur 20 tahun dan saya lulusan SMK tahun 2021 </p>
+      </div>
+    </div>
+
+    <div class="card col shadow p-3 mb-5 bg-body rounded" style="width:18rem;">
+      <img src="../portofolio/img/IMG_20221023_160644.jpg" alt="card" class="card-img-top">
+      <div class="card-body"> 
+        <p class="intro">Hobi saya adalah mendengarkan musik, menonton film, dan belajar bahasa pemrograman yang baru</p>
+      </div>
+    </div>
+    
+    <div class="card col shadow p-3 mb-5 bg-body rounded" style="width:18rem;">
+      <img src="../portofolio/img/IMG_20221024_110344.jpg" alt="card" class="card-img-top">
+      <div class="card-body"> 
+        <p class="intro">Cita-cita saya adalah menjadi Full-Stack Developer</p>
+      </div>
+    </div>
+    
+</div>
+</main>
+
+<div class="box-2"></div>
+<!-- Project -->
+<div class="article">
+  <div class="project">
+    <h2>Project</h2>
+    <div class="container-fluid ">
+      <!-- indicator -->
+      <div id="indicator" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#indicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#indicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#indicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+        <div class="box-p row-cols-1">
+          <div class="carousel-item active col">
+            <img src="img/Skill-Yang-Harus-Dimiliki-Programmer.png" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-item col">
+            <img src="img/pexels-negative-space-160107.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-item col">
+            <img src="img/pexels-denis-trushtin-10019141.jpg" alt="" class="img-fluid">
+          </div>
+        </div> 
+        </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#indicator" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" 
+            aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#indicator" data-bs-slide="next">
+            <span class="carousel-control-next-icon" 
+            aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+
+<!-- Contact -->
+<div class="container-fluid bg-dark text-white">
+<h2 class="contact text-center">Contact</h2>
+<form action="" method="post" class="needs-validation d-flex justify-content-center" novalidate>
+  <div class="clearfix col-md-6">
+  <!-- Name contact -->
+  <div class="col-md-12 mb-3">
+    <label for="validationCustomName" class="form-label">Name</label>
+    <div class="input-group has-validation">
+      <input type="text" class="form-control" id="validationCustomName" aria-describedby="inputGroupPrepend" placeholder="Name" required>
+      <div class="invalid-feedback">Please input Name.</div>
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div class="col-md-12 mb-3">
+    <label for="validationCustomEmail" class="form-label">Email</label>
+    <div class="input-group has-validation">
+      <input type="text" class="form-control" id="validationCustomEmail" aria-describedby="iputGroupPrepend" placeholder="example@gmail.com" required>
+      <div class="invalid-feedback">Please input Email.</div>
+    </div>
+  </div>
+
+  <!-- Message -->
+  <div class="col-md-12 mb-3">
+    <label for="validationTextarea" class="form-label">Message</label>
+    <textarea name="message" class="form-control" id="validationTextarea" placeholder="Send message" cols="10" rows="4" required></textarea>
+    <div class="invalid-feedback">Please enter a message</div>
+  </div>
+<!-- submit form -->
+  <button type="submit" class="btn btn-primary mb-3">Submit</button>
+  </div>
+
+</form>
+</div>
+
+<div class="box-2"></div>
+<!-- footer -->
+<footer class="container-fluid bg-dark text-white">
+  <div class="row">
+    <h4 class="quick-link d-flex justify-content-start mb-3">Quick link</h4>
+    <div class="quick-link d-flex justify-content-start">
+    <ol class="mg-0 p-0">
+      <ul>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </ol>
+    </div>
+    <div class="col-12 py-4">
+    &copy; Copyright By.Rifky Hamballi
+    </div>
+  </div>
+</footer>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
